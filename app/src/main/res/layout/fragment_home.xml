@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Título de la aplicación -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARMAX"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botón de registrar -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableTop="@android:drawable/ic_input_add"
+        android:text="@string/registrar"
+        android:gravity="center"
+        android:minHeight="80dp" />
+
+    <!-- Botón de mostrar -->
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableTop="@android:drawable/ic_menu_view"
+        android:text="@string/mostrar"
+        android:gravity="center"
+        android:minHeight="80dp" />
+
+    <!-- Botón de actualizar -->
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableTop="@android:drawable/ic_menu_edit"
+        android:text="@string/actualizar"
+        android:gravity="center"
+        android:minHeight="80dp" />
+
+    <!-- Botón de eliminar -->
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawableTop="@android:drawable/ic_menu_delete"
+        android:text="@string/eliminar"
+        android:gravity="center"
+        android:minHeight="80dp" />
+
+</LinearLayout>

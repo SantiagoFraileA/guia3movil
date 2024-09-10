@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">guia3</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="a_o">Año</string>
+    <string name="kilometraje">Kilometraje</string>
+    <string name="disponible">Disponible</string>
+    <string name="guardar">Guardar</string>
+    <string name="id_del_veh_culo">ID del Vehículo</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="registrar">Registrar</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="id">ID</string>
+    <string name="cargar">Cargar</string>
+</resources>
